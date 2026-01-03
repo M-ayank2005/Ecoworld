@@ -1,118 +1,167 @@
-# Save Nature - Parallax Landing Page
+# 🌿 EcoWorld - Together We Can Make a Difference
 
-# EcoWorld - Save Nature Multi-Page Website
+> **Empowering global conservation through action, awareness, and community**
 
-A complete, beautiful Next.js multi-page website dedicated to environmental conservation, wildlife protection, and forest preservation. Features stunning parallax effects and comprehensive information about our global conservation mission.
+EcoWorld is a non-profit conservation organization dedicated to protecting our planet's most vulnerable ecosystems and wildlife. Through direct action, community engagement, and global partnerships, we work tirelessly to preserve nature for future generations.
 
-## Features
+## 🎯 Who We Are
 
-- 🌿 Smooth parallax scrolling effects
-- 🎨 Beautiful nature-themed design with Tailwind CSS & custom animations
-- ✨ Interactive spark effects on mouse movement
-- 📱 Fully responsive multi-page website
-- ♿ Accessible and SEO-friendly
-- 🚀 Built with Next.js 14 App Router and React 18
-- 🦁 Comprehensive wildlife protection information
-- 🌳 Forest conservation and reforestation details
-- 💚 Multiple ways to get involved and donate
-- 📊 Impact statistics and project showcases
-- 📧 Contact form and regional office information
+EcoWorld is a worldwide movement of passionate environmentalists, scientists, volunteers, and supporters committed to reversing ecological damage and creating a sustainable future. With over **1 million supporters** across **75+ countries**, we're creating real, measurable impact through:
 
-## Getting Started
+- **Direct Conservation:** On-the-ground habitat protection and wildlife rescue operations
+- **Reforestation:** Planting over **10 million trees** across degraded ecosystems
+- **Species Protection:** Active conservation programs for **500+ endangered species**
+- **Community Empowerment:** Educating and equipping local communities to become environmental stewards
+- **Policy Advocacy:** Influencing environmental policies at local, national, and international levels
+
+## 💚 Our Purpose
+
+We exist to bridge the gap between environmental crisis and tangible solutions. Our mission is threefold:
+
+1. **Protect** - Safeguard endangered species and critical habitats from destruction
+2. **Restore** - Actively rehabilitate degraded ecosystems and reforest deforested lands
+3. **Inspire** - Educate and mobilize communities worldwide to take meaningful climate action
+
+This website serves as a digital gateway to our global conservation efforts, providing transparent information about our work, showcasing real-world impact, and offering multiple pathways for people to join our movement—whether through donations, volunteering, or simple daily actions.
+
+## 🌍 Why This Matters
+
+Our planet is facing unprecedented environmental challenges:
+- **10 million hectares** of forest lost annually
+- **1 million species** at risk of extinction
+- **15% of global CO₂ emissions** from deforestation alone
+- **80% of terrestrial species** affected by habitat loss
+
+**We can't wait. Nature needs action now.** Every tree planted, every habitat protected, and every person educated brings us one step closer to a thriving planet.
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ installed
-- npm or yarn package manager
+- **Node.js 18+** - [Download here](https://nodejs.org/)
+- **npm** or **yarn** package manager
 
-### Installation
+### Local Development
 
-1. Install dependencies:
+1. **Clone the repository:**
+```bash
+git clone https://github.com/M-ayank2005/Ecoworld.git
+cd Ecoworld
+```
 
+2. **Install dependencies:**
 ```bash
 npm install
 ```
 
-2. Run the development server:
-
+3. **Run development server:**
 ```bash
 npm run dev
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. **Open in browser:**
+Navigate to [http://localhost:3000](http://localhost:3000)
 
-## Project Structure
-
-```
-Hills/
-├── app/
-│   ├── layout.js              # Root layout with fonts and metadata
-│   ├── page.jsx               # Home page with parallax hero
-│   ├── about/page.jsx         # About organization page
-│   ├── wildlife/page.jsx      # Wildlife protection page
-│   ├── forests/page.jsx       # Forest conservation page
-│   ├── get-involved/page.jsx  # Ways to help page
-│   ├── impact/page.jsx        # Impact & projects page
-│   ├── contact/page.jsx       # Contact form page
-│   ├── globals.css            # Global Tailwind styles
-│   └── parallax.css           # Custom parallax animations
-├── components/
-│   ├── Header.jsx             # Navigation header
-│   ├── Footer.jsx             # Footer with links
-│   ├── ParallaxHero.jsx       # Hero section with parallax
-│   └── ContentSection.jsx     # Main content section
-├── public/
-│   └── *.png                  # Image assets (hills, trees, etc.)
-├── package.json               # Dependencies
-├── next.config.js             # Next.js configuration
-├── tailwind.config.js         # Tailwind CSS config
-└── postcss.config.js          # PostCSS config
-```
-
-## Technologies Used
-
-- **Next.js 14** - React framework with App Router
-- **React 18** - UI library
-- **Tailwind CSS** - Utility-first CSS framework
-- **Custom CSS** - Parallax animations and effects
-- **Google Fonts (Poppins)** - Typography
-
-## Build for Production
+### Production Build
 
 ```bash
 npm run build
 npm start
 ```
 
-## Mission
+The optimized production build will be ready to deploy on any Node.js hosting platform (Vercel, Netlify, AWS, etc.).
 
-EcoWorld promotes environmental awareness and action to:
-- Protect endangered species
-- Plant trees and restore forests
-- Reduce pollution and plastic waste
-- Combat climate change
-- Educate communities on sustainability
-- Empower local communities worldwide
-- Create sustainable solutions for people and nature
+## 📂 Project Structure
 
-## Pages Overview
+```
+Ecoworld/
+├── app/
+│   ├── layout.js              # Root layout with Poppins font & SEO metadata
+│   ├── page.jsx               # Home - Parallax hero, mission, quick stats
+│   ├── about/page.jsx         # About - Organization history, values, team
+│   ├── wildlife/page.jsx      # Wildlife - Endangered species & programs
+│   ├── forests/page.jsx       # Forests - Deforestation crisis & solutions
+│   ├── get-involved/page.jsx  # Get Involved - Donate, volunteer, actions
+│   ├── impact/page.jsx        # Impact - Projects, stats, testimonials
+│   ├── contact/page.jsx       # Contact - Form, offices, FAQ, hotline
+│   ├── globals.css            # Global Tailwind styles & dark theme
+│   └── parallax.css           # Custom animations, spark effects, scrollbar
+├── components/
+│   ├── Header.jsx             # Fixed navigation (4 links, transparent hero)
+│   ├── Footer.jsx             # Footer with links & newsletter signup
+│   ├── ParallaxHero.jsx       # Hero with layered parallax scrolling
+│   └── ContentSection.jsx     # Mission statement & statistics cards
+├── public/
+│   ├── hill1.png - hill5.png  # Parallax background layers
+│   ├── tree.png               # Foreground tree element
+│   ├── leaf.png               # Animated leaf element
+│   └── plant.png              # Foreground plant element
+├── package.json               # Dependencies & scripts
+├── next.config.js             # Next.js configuration
+├── tailwind.config.js         # Tailwind with custom nature colors
+├── postcss.config.js          # PostCSS configuration
+└── jsconfig.json              # Path aliases (@/*)
+```
 
-- **Home** - Parallax hero with mission statement and quick stats
-- **About** - Organization history, mission, values, and team
-- **Wildlife** - Endangered species, conservation programs, success stories
-- **Forests** - Reforestation initiatives, forest types, impact statistics
-- **Get Involved** - Donation options, volunteer opportunities, simple actions
-- **Impact** - Project showcases, regional impact, testimonials, timeline
-- **Contact** - Contact form, office locations, FAQs, emergency hotline
+## 🌳 Our Conservation Focus
 
-## Contributing
+### Wildlife Protection
+Protecting endangered species through anti-poaching initiatives, wildlife rescue operations, breeding programs, and habitat preservation. Featured species include elephants, tigers, mountain gorillas, polar bears, giant pandas, and sea turtles.
 
-Feel free to contribute to this project by submitting issues or pull requests.
+### Forest Conservation
+Combating deforestation through the **10 Million Trees Campaign**, rainforest protection programs, sustainable agroforestry education, and fire prevention systems across tropical, temperate, boreal, and mangrove ecosystems.
 
-## License
+### Climate Action
+Reducing carbon footprints, promoting renewable energy, advocating for sustainable policies, and educating communities about climate change mitigation and adaptation strategies.
 
-This project is open source and available under the MIT License.
+### Community Empowerment
+Training local rangers, providing sustainable livelihood alternatives, establishing wildlife clubs in schools, and creating economic incentives for conservation through eco-tourism and sustainable harvesting.
+
+## 📄 Website Pages
+
+| Page | Purpose | Key Features |
+|------|---------|--------------|
+| **Home** | Mission overview & call to action | Parallax hero, statistics (10M+ trees, 500+ species), quick impact summary |
+| **About** | Organization background | Mission statement, core values, leadership team, what we do |
+| **Wildlife** | Species conservation programs | Endangered species profiles, conservation initiatives, success stories |
+| **Forests** | Reforestation initiatives | Crisis statistics, forest importance, active programs, ecosystem types |
+| **Get Involved** | Action pathways | Donation calculator, volunteer opportunities, simple daily actions |
+| **Impact** | Transparency & results | Global statistics, 6 active projects, regional breakdowns, testimonials |
+| **Contact** | Direct communication | Contact form, 8 regional offices, FAQ, 24/7 emergency wildlife hotline |
+
+## 🤝 Contributing
+
+We welcome contributions to improve this website! Whether it's fixing bugs, enhancing features, or improving documentation:
+
+1. **Fork the repository**
+2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)
+3. **Commit your changes** (`git commit -m 'Add amazing feature'`)
+4. **Push to branch** (`git push origin feature/amazing-feature`)
+5. **Open a Pull Request**
+
+For major changes, please open an issue first to discuss proposed modifications.
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🌍 Join Our Mission
+
+Every action counts. Visit the live website to:
+- 💰 **Donate** to conservation projects
+- 🙋 **Volunteer** for field or remote opportunities
+- 📚 **Learn** about endangered species and ecosystems
+- 📢 **Share** our mission with your network
+- 🌱 **Take Action** with simple daily eco-friendly practices
 
 ---
 
-Made with 💚 for our planet Earth - 
+<div align="center">
+
+**Made with 💚 for Planet Earth**
+
+*Because nature doesn't need us. We need nature.*
+
+[Website](https://ecoworld.com) • [GitHub](https://github.com/M-ayank2005/Ecoworld) • [Contact Us](mailto:contact@ecoworld.org)
+
+</div>
