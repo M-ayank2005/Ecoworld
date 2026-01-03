@@ -76,31 +76,26 @@ The optimized production build will be ready to deploy on any Node.js hosting pl
 ```
 Ecoworld/
 ├── app/
-│   ├── layout.js              # Root layout with Poppins font & SEO metadata
-│   ├── page.jsx               # Home - Parallax hero, mission, quick stats
-│   ├── about/page.jsx         # About - Organization history, values, team
-│   ├── wildlife/page.jsx      # Wildlife - Endangered species & programs
-│   ├── forests/page.jsx       # Forests - Deforestation crisis & solutions
-│   ├── get-involved/page.jsx  # Get Involved - Donate, volunteer, actions
-│   ├── impact/page.jsx        # Impact - Projects, stats, testimonials
-│   ├── contact/page.jsx       # Contact - Form, offices, FAQ, hotline
-│   ├── globals.css            # Global Tailwind styles & dark theme
-│   └── parallax.css           # Custom animations, spark effects, scrollbar
+│   ├── layout.js              
+│   ├── page.jsx              
+│   ├── about/page.jsx       
+│   ├── wildlife/page.jsx     
+│   ├── forests/page.jsx       
+│   ├── get-involved/page.jsx  
+│   ├── impact/page.jsx       
+│   ├── contact/page.jsx       
+│   ├── globals.css            
+│   └── parallax.css           
 ├── components/
-│   ├── Header.jsx             # Fixed navigation (4 links, transparent hero)
-│   ├── Footer.jsx             # Footer with links & newsletter signup
-│   ├── ParallaxHero.jsx       # Hero with layered parallax scrolling
-│   └── ContentSection.jsx     # Mission statement & statistics cards
-├── public/
-│   ├── hill1.png - hill5.png  # Parallax background layers
-│   ├── tree.png               # Foreground tree element
-│   ├── leaf.png               # Animated leaf element
-│   └── plant.png              # Foreground plant element
-├── package.json               # Dependencies & scripts
-├── next.config.js             # Next.js configuration
-├── tailwind.config.js         # Tailwind with custom nature colors
-├── postcss.config.js          # PostCSS configuration
-└── jsconfig.json              # Path aliases (@/*)
+│   ├── Header.jsx             
+│   ├── Footer.jsx            
+│   ├── ParallaxHero.jsx      
+│   └── ContentSection.jsx     
+├── package.json               
+├── next.config.js         
+├── tailwind.config.js        
+├── postcss.config.js         
+└── jsconfig.json            
 ```
 
 ## 🌳 Our Conservation Focus
@@ -121,7 +116,7 @@ Training local rangers, providing sustainable livelihood alternatives, establish
 
 | Page | Purpose | Key Features |
 |------|---------|--------------|
-| **Home** | Mission overview & call to action | Parallax hero, statistics (10M+ trees, 500+ species), quick impact summary |
+| **Home** | Mission overview & call to action | statistics (10M+ trees, 500+ species), quick impact summary |
 | **About** | Organization background | Mission statement, core values, leadership team, what we do |
 | **Wildlife** | Species conservation programs | Endangered species profiles, conservation initiatives, success stories |
 | **Forests** | Reforestation initiatives | Crisis statistics, forest importance, active programs, ecosystem types |
